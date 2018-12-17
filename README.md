@@ -37,7 +37,7 @@ The parameters that can be adjusted can be found bellow the functions. You can a
 
 
 ### Data Set
-The data set is obtained from Kaggle, where it was posted by Pavan Raj.
+The data set (pulsar_stars.csv) is obtained from Kaggle, where it was posted by Pavan Raj.
 URL: https://www.kaggle.com/pavanraj159/predicting-pulsar-star-in-the-universe/notebook?scriptVersionId=4487650
 
 ### Results
