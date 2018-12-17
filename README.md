@@ -17,7 +17,8 @@ The parameters that can be adjusted in the MLP can be in initializaion of the ML
 - To run the keras network or not
 - Learning rate
 - Momentum
-- Number of hidden nodes
+- Number of hidden nodes in hidden layer 1
+- Number of hidden nodes in hidden layer 2
 - Minibatch size
 - Number of epochs between checking early stopping
 
