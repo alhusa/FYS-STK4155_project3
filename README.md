@@ -10,6 +10,7 @@ The parameters that can be adjusted can be found bellow the functions. You can a
 - Minibatch size
 - Learning rate
 - Lambda values
+- Number of runs in the bootstrap
 
 #### MLP
 The parameters that can be adjusted in the MLP can be in initializaion of the MLP class. You can adjust:
