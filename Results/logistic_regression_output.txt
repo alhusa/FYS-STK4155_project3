@@ -1,0 +1,122 @@
+
+Output from the logistic regression program for different values of lambda.
+
+--------------
+Created minibatch method:
+Train score: 97.7724
+Test score: 97.2894
+Test: Max score: 97.407532 Min score: 97.150520
+
+Created minibatch with L2 regularization lambda = 0.00001:
+Train score: 97.7596
+Test score: 97.2730
+Test: Max score: 97.374008 Min score: 97.150520
+
+Scikit learn method lambda = 0.00001:
+Train score: 98.1149
+Test score: 97.7446
+Test: Max score: 97.876858 Min score: 97.597497
+
+--------------
+
+Created minibatch method:
+Train score: 97.7751
+Test score: 97.2824
+Test: Max score: 97.374008 Min score: 97.139345
+
+Created minibatch with L2 regularization lambda = 0.00010:
+Train score: 97.6650
+Test score: 97.1861
+Test: Max score: 97.284613 Min score: 97.116996
+
+Scikit learn method lambda = 0.00010:
+Train score: 98.1160
+Test score: 97.7384
+Test: Max score: 97.854509 Min score: 97.608671
+
+--------------
+
+Created minibatch method:
+Train score: 97.7775
+Test score: 97.2844
+Test: Max score: 97.396357 Min score: 97.150520
+
+Created minibatch with L2 regularization lambda = 0.00100:
+Train score: 97.2455
+Test score: 96.9318
+Test: Max score: 97.049950 Min score: 96.781763
+
+Scikit learn method lambda = 0.00100:
+Train score: 98.1161
+Test score: 97.7489
+Test: Max score: 97.888032 Min score: 97.619846
+
+--------------
+
+Created minibatch method:
+Train score: 97.7651
+Test score: 97.2761
+Test: Max score: 97.362834 Min score: 97.150520
+
+Created minibatch with L2 regularization lambda = 0.01000:
+Train score: 96.0277
+Test score: 95.6374
+Test: Max score: 95.921332 Min score: 95.362610
+
+Scikit learn method lambda = 0.01000:
+Train score: 98.0448
+Test score: 97.6720
+Test: Max score: 97.820986 Min score: 97.552799
+
+--------------
+
+Created minibatch method:
+Train score: 97.7808
+Test score: 97.2752
+Test: Max score: 97.362834 Min score: 97.150520
+
+Created minibatch with L2 regularization lambda = 1.00000:
+Train score: 90.9949
+Test score: 90.8056
+Test: Max score: 92.893061 Min score: 90.736395
+
+Scikit learn method lambda = 1.00000:
+Train score: 97.6069
+Test score: 97.1864
+Test: Max score: 97.284613 Min score: 97.094647
+
+--------------
+
+Created minibatch method:
+Train score: 97.7643
+Test score: 97.2743
+Test: Max score: 97.396357 Min score: 97.150520
+
+Created minibatch with L2 regularization lambda = 10.00000:
+Train score: 90.9401
+Test score: 90.7364
+Test: Max score: 90.736395 Min score: 90.736395
+
+Scikit learn method lambda = 10.00000:
+Train score: 97.0239
+Test score: 96.7686
+Test: Max score: 96.938205 Min score: 96.614147
+
+--------------
+
+Created minibatch method:
+Train score: 97.7877
+Test score: 97.2849
+Test: Max score: 97.385183 Min score: 97.105822
+
+Created minibatch with L2 regularization lambda = 100.00000:
+Train score: 90.9465
+Test score: 90.7364
+Test: Max score: 90.736395 Min score: 90.736395
+
+Scikit learn method lambda = 100.00000:
+Train score: 95.4290
+Test score: 95.0332
+Test: Max score: 95.139122 Min score: 94.837412
+
+--------------

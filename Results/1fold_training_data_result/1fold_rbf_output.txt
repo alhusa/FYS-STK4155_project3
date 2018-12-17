@@ -1,0 +1,115 @@
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 97.4522% Test set accuracy: 98.2568%
+
+Confusion matrix for test data:
+[[2682.   11.]
+ [  41.  249.]]
+ 
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 97.5863% Test set accuracy: 98.2233%
+
+Confusion matrix for test data:
+[[2688.    5.]
+ [  48.  242.]]
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.0892% Test set accuracy: 97.9886%
+
+Confusion matrix for test data:
+[[2690.   10.]
+ [  50.  233.]]
+
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.3238% Test set accuracy: 97.7539%
+
+Confusion matrix for test data:
+[[2693.    7.]
+ [  60.  223.]]
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.3909% Test set accuracy: 97.5193%
+
+Confusion matrix for test data:
+[[2661.   32.]
+ [  42.  248.]]
+
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.4915% Test set accuracy: 97.5863%
+
+Confusion matrix for test data:
+[[2668.   25.]
+ [  47.  243.]]
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 97.7875% Test set accuracy: 97.3517%
+
+Confusion matrix for test data:
+[[2699.   19.]
+ [  60.  205.]]
+
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.0221% Test set accuracy: 97.3181%
+
+Confusion matrix for test data:
+[[2705.   13.]
+ [  67.  198.]]
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 97.4522% Test set accuracy: 97.3181%
+
+Confusion matrix for test data:
+[[2697.   30.]
+ [  50.  206.]]
+
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 97.5863% Test set accuracy: 97.6198%
+
+Confusion matrix for test data:
+[[2709.   18.]
+ [  53.  203.]]
+
+--------------------------------------------------------
+
+Own SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.3238% Test set accuracy: 97.9216%
+
+Confusion matrix for test data:
+[[2703.   25.]
+ [  37.  218.]]
+
+Scikit SVM:
+C: 1.000000  gamma: 9.000000
+Train set accuracy: 98.4915% Test set accuracy: 97.9551%
+
+Confusion matrix for test data:
+[[2710.   18.]
+ [  43.  212.]]
+
+Created SVM:
+Average accuracy train data: 97.92%. Min: 97.45%. Max: 98.39%. Train std: 0.38%
+Average accuracy test data: 97.73%. Min: 97.32%. Max: 98.26%. Test std: 0.35%
+Scikit SVM:
+Average accuracy train data: 98.08%. Min: 97.59%. Max test: 98.49%. Train std: 0.38%
+Average accuracy test data: 97.74%. Min: 97.32%. Max test: 98.22%. Test std: 0.29%

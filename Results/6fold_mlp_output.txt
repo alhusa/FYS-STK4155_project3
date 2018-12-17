@@ -1,0 +1,78 @@
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 97.9383% Test set accuracy: 98.0892%
+
+Confusion matrix:
+[[2671.   20.]
+ [  37.  255.]]
+keras MLP:
+Train set accuracy: 97.3433% Test set accuracy: 97.4522%
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 98.1478% Test set accuracy: 97.6198%
+
+Confusion matrix:
+[[2700.   27.]
+ [  44.  212.]]
+keras MLP:
+Train set accuracy: 97.5360% Test set accuracy: 97.1840%
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 97.9299% Test set accuracy: 98.0221%
+
+Confusion matrix:
+[[2690.   21.]
+ [  38.  234.]]
+keras MLP:
+Train set accuracy: 97.4019% Test set accuracy: 97.4522%
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 97.8964% Test set accuracy: 97.8210%
+
+Confusion matrix:
+[[2694.   12.]
+ [  53.  224.]]
+keras MLP:
+Train set accuracy: 97.3014% Test set accuracy: 97.2846%
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 97.9383% Test set accuracy: 97.9886%
+
+Confusion matrix:
+[[2684.    9.]
+ [  51.  239.]]
+keras MLP:
+Train set accuracy: 97.4103% Test set accuracy: 97.3517%
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Own MLP:
+Train set accuracy: 97.9886% Test set accuracy: 98.1227%
+
+Confusion matrix:
+[[2718.   13.]
+ [  43.  209.]]
+keras MLP:
+Train set accuracy: 97.4271% Test set accuracy: 97.6198%
+
+--------------------------------------------------------
+Created MLP:
+Average accuracy train data: 97.97%. Min: 97.90%. Max: 98.15%. Train std: 0.08%
+Average accuracy test data: 97.94%. Min: 97.62%. Max: 98.12%. Test std: 0.17%
+keras MLP:
+Average accuracy train data: 97.40%. Min: 97.30%. Max: 97.54%. Train std: 0.07%
+Average accuracy test data: 97.39%. Min: 97.18%. Max: 97.62%. Test std: 0.14%

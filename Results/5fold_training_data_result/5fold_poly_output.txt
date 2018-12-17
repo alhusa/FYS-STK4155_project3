@@ -1,0 +1,62 @@
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.7560% Test set accuracy: 95.2732%
+
+Confusion matrix for test data:
+[[2686.    6.]
+ [ 135.  156.]]
+
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.7828% Test set accuracy: 95.6420%
+
+Confusion matrix for test data:
+[[2725.    7.]
+ [ 123.  128.]]
+
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.8029% Test set accuracy: 95.8431%
+
+Confusion matrix for test data:
+[[2718.    4.]
+ [ 120.  141.]]
+
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.7492% Test set accuracy: 95.7761%
+
+Confusion matrix for test data:
+[[2699.    7.]
+ [ 119.  158.]]
+
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.8230% Test set accuracy: 95.3403%
+
+Confusion matrix for test data:
+[[2693.    4.]
+ [ 135.  151.]]
+
+--------------------------------------------------------
+
+Scikit SVM:
+C: 1.000000  gamma: 1.000000
+Train set accuracy: 95.7627% Test set accuracy: 95.7761%
+
+Confusion matrix for test data:
+[[2706.    4.]
+ [ 122.  151.]]
+Scikit SVM:
+Average accuracy train data: 95.78%. Min: 95.75%. Max: 95.82%. Train std: 0.03%
+Average accuracy test data: 95.61%. Min: 95.27%. Max: 95.84%. Test std: 0.22%
