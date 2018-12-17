@@ -27,7 +27,7 @@ class mlp:
         function to initialize the network
         """
         #set if the network prints the progress
-        self.verbose = False
+        self.verbose = True
         #toggle the keras nettwork
         self.run_keras = True
         #learning rate
@@ -82,14 +82,6 @@ class mlp:
             #trains the MLP using all the test data
             for i in range(0,inputs.shape[0],self.minibatch):
                 self.train(inputs[i:i+self.minibatch,:],targets[i:i+self.minibatch,:])
-
-                # #get accuracy of the model using the traing set
-                # ac_train, conf_train =  mlp1.confusion(inputs[i:i+self.minibatch,:],targets[i:i+self.minibatch,:])
-                # print("--------------------")
-                # print("After %d epochs" %k)
-                # print("Training set accuracy: %.5f" %ac_train)
-
-
 
 
             #reorder the data so the program is not trained in the same way every epoch
@@ -262,30 +254,6 @@ class mlp:
         #gets the percentage of correct classifications
         percor = correct/inputs.shape[0]
         return percor * 100, conf
-    # def lift_score(self, inputs):
-    #     """
-    #     Calculates the number of one classification
-    #     Inputs: Data and labels that are going to be assessed.
-    #     Outputs: number of one of the classifications
-    #     """
-    #     #--------Test zone -----------
-    #     outputHi1,outputHi2, outputOu = self.forward(inputs)
-    #     onehot_output = np.zeros_like(outputOu)
-    #     onehot_output[outputOu.argmax(0),np.arange(outputOu.shape[1])] = 1
-    #     # estind = np.argmax(outputOu,axis=0)
-    #     # # print(estind.shape)
-    #     # for i in range(0,estind.shape[1]):
-    #     #     print(estind[:,i])
-    #     #     print(outputOu[:,i])
-    #     print(onehot_output.shape)
-    #
-    #     print(onehot_output.T)
-    #     return onehot_output.T
-
-    # def lift (self,input,num_data):
-    #     """
-    #
-    #     """
 
 
     def activate(self, inputs):
@@ -296,9 +264,6 @@ class mlp:
         """
 
         return 1 / (1 + ( np.exp( - inputs)))
-
-
-
 
 
 #Get the pulsar data

@@ -148,8 +148,9 @@ for l in lamb:
     b_test_ac_sci = np.zeros(boot_runs)
     for j in range(boot_runs):
 
-
+        #use scikit to take randoms samples with replacement
         x_boot, y_boot = sklearn.utils.resample(xt,yt)
+
         #initialize the beta parameters
         beta = (2/np.sqrt(data.shape[1]+1)) * np.random.random_sample((data.shape[1]+1,1)) -1/np.sqrt(data.shape[1]+1)
         beta_l2 = (2/np.sqrt(data.shape[1]+1)) * np.random.random_sample((data.shape[1]+1,1)) -1/np.sqrt(data.shape[1]+1)
@@ -213,13 +214,14 @@ for l in lamb:
         b_train_ac_sci[j] = scilearn.score(x_boot,y_boot) * 100
 
 
-
+    #Stor the mean of the accuracy of each run in the bootstrap
     train_ac[count] = np.mean(b_train_ac)
     test_ac[count] = np.mean(b_test_ac)
     train_ac_l2[count] = np.mean(b_train_ac_l2)
     test_ac_l2[count] = np.mean(b_test_ac_l2)
     train_ac_sci[count]= np.mean(b_train_ac_sci)
     test_ac_sci[count] = np.mean(b_test_ac_sci)
+    
     #print results
     print("Created minibatch method:")
     print("Train score: %.4f" %train_ac[count])
