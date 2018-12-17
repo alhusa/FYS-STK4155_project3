@@ -23,15 +23,15 @@ The parameters that can be adjusted in the MLP can be in initializaion of the ML
 
 #### SVM
 The parameters that can be adjusted can be found bellow the functions. You can adjust:
--Kernel chooses the type of kernel. It can be 'poly' of 'rbf'
--Number of folds to be used for training (max: 5)
--The degree of kernal polynomial (tested up to 10)
--Tolerance for choosing the support vectors
--The C-parameter that trades of margin size and number of errors
--The gamma-parameter for the SVM
--Wether to run the scikit SVM or not
--Wether to run the created SVM or not
--Wether the functions are verbose or not
+- Kernel chooses the type of kernel. It can be 'poly' of 'rbf'
+- Number of folds to be used for training (max: 5)
+- The degree of kernal polynomial (tested up to 10)
+- Tolerance for choosing the support vectors
+- The C-parameter that trades of margin size and number of errors
+- The gamma-parameter for the SVM
+- Wether to run the scikit SVM or not
+- Wether to run the created SVM or not
+- Wether the functions are verbose or not
 
 
 ### Data Set
